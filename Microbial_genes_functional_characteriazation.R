@@ -8,7 +8,7 @@ library(matrixStats)
 library(reshape)
 library(ggplot2)
 #
-setwd("/data1/PDAC_files/code_ocean/")
+setwd("/data")
 ##microbial genes were analysed based on eggNOG and GhostKOALA website, then processed by Perl script.
 #load processed output.
 KEGG_function<-read_excel("microbial_gene_functional_characterization.xlsx"
