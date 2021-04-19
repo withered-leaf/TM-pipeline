@@ -27,10 +27,10 @@ The code files here are linked to the work "Tumor microbiome contributes to an a
 
 * R codes to carry out the correlation analysis between host gene expression and microbiome. In brief, we performed gene enrichment analysis against several functional categories, including KEGG pathways, GO terms and the hallmark gene set, using a hypergeometric test by clusterProfiler. The first principal component (PC1) was estimate to represent the general expression level of the functional module. The correlation between functional module and microbial abundance was analyzed using the Pearson algorithm in the R package psych. 
 
-`Correlation between host gene expression and microbiome.R`
+`Correlation_between_host_gene_expression_and_microbiome.R`
 
 * R codes to perform the association analysis between host genetics and microbiome. To link the microbial genera to genetic variation, we treated the abundance of genera as quantitative traits, and quantitative trait locus (QTL) mapping was carried out using the R package MatrixEQTL. We chose a linear model based on the assumption that genotypes have only additive effects on microbial abundance.
 
-`eQTL analysis between host genotype and microbiome.R`
+`eQTL_analysis_between_host_genotype_and_microbiome.R`
 
 The example files can be found in the data folder. 
