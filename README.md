@@ -33,4 +33,4 @@ The code files here are linked to the work "Tumor microbiome contributes to an a
 
 `eQTL_analysis_between_host_genotype_and_microbiome.R`
 
-The example files can be found in the data folder. 
+The example files can be found in the /data directory. 
