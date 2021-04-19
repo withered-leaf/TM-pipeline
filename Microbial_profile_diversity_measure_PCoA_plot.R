@@ -15,7 +15,7 @@ library(car)
 library(vegan)
 library(egg)
 #load microbial abundance matrix from kraken2+Bracken output.
-setwd("/data1/PDAC_files/code_ocean/")
+setwd("/data")
 #the_taxonomic_level="genus"
 myfile="PDAC_samples_count_genus"
 bac.exp<-read.delim(file = myfile,row.names = 1,stringsAsFactors = F)
